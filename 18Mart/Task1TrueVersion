@@ -12,9 +12,13 @@
             {
                 Console.WriteLine(array[i]);
             }
+            
+            
+            
+            
             static int[] numberAdd(ref int[] array,  int numb)
             {
-                numb = 3;
+                
 
                 int count = 0;
                 for (int i = 0; i < array.Length; i++)
